@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Link JavaScript -->
+    <script src="script.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h2>Student Registration Form</h2>
+
+    <form onsubmit="return validateForm()">
+
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Enter your email">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter password">
+
+        <label for="mobile">Mobile Number</label>
+        <input type="text" id="mobile" placeholder="Enter 10-digit number">
+
+        <input type="submit" value="Register">
+
+    </form>
+</div>
+
+</body>
+</html>
